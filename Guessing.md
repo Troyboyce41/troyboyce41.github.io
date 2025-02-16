@@ -1,5 +1,5 @@
 ```mermaid
-flowchart TD;
+flowchart TD
    A ( I am thinking of a number from 1 to100.) --> B{User inputs number};
     B -->|Result one if the number is lower than randomly generated number| D[That is too low, try again.];
     B -->|Result two if the number matches the randomly generated number| E[That is correct!];
